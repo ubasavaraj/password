@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main_container {
+  background-image: linear-gradient(#9ba9eb, #c3caea);
+}
+.appLogo {
+  height: 80px;
+  width: 200px;
+  margin: 20px;
+}
+.first_container {
+  background-color: #5763a5;
+  background-size: cover;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.second_container {
+  background-color: #5763a5;
+  background-size: cover;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input_container {
+  background-color: #454f84;
+  margin: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+.passManager {
+  width: 300px;
+  height: 300px;
+}
+.searchbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.nopassword {
+  height: 300px;
+  width: 300px;
+}
+.nopasswordlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

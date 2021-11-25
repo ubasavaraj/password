@@ -1,0 +1,15 @@
+.listitem {
+  background-color: #9ba9eb;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+  border-radius: 15px;
+  padding: 15px;
+}
+.head {
+  background-color: brown;
+  border-radius: 40px;
+  margin: 5px;
+  padding: 6px;
+}
